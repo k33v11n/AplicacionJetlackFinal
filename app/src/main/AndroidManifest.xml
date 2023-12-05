@@ -15,49 +15,44 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AplicacionJetlack"
         tools:targetApi="31">
+        <activity
+            android:name=".Usuario"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyD1-4SOozzbUZg_i4sGoXugcbZyA4Sbo1o">
-
-        </meta-data>
+            android:value="AIzaSyD1-4SOozzbUZg_i4sGoXugcbZyA4Sbo1o"></meta-data>
 
         <activity
             android:name=".splash_screen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".pantalla_inicio"
             android:exported="false" />
-
         <activity
             android:name=".login"
             android:exported="false" />
-
         <activity
             android:name=".informacion"
             android:exported="false" />
-
         <activity
             android:name=".tipo_numero1"
             android:exported="false" />
-
         <activity
             android:name=".tipo_numero2"
             android:exported="false" />
-
         <activity
             android:name=".tipo_numero3"
             android:exported="false" />
-
         <activity
             android:name=".contador"
             android:exported="false" />
-
         <activity
             android:name=".GPS"
             android:exported="false" />
